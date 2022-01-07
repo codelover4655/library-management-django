@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+
+    {% block title %} yoyo {% endblock title %}
+
+    </title>
+    <body>
+        
+
+        <form  method="POST">  
+            {% csrf_token %}
+
+            {{ obj.as_p }}
+        
+            <input type="submit" value="Submit">
+          </form>
+          
+
+
+
+
+
+
+    </body>
+
+</head>
+</html>
