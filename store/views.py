@@ -1,4 +1,4 @@
-from types import NoneType
+
 from django.shortcuts import render
 from django.shortcuts import get_object_or_404,redirect
 from store.models import *
